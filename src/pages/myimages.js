@@ -3,17 +3,13 @@ import Head from "next/head";
 import { Box, Container, Grid, Typography, Pagination } from "@mui/material";
 import { products } from "../__mocks__/products";
 import { DashboardLayout } from "../components/dashboard-layout";
-import { PlanBox } from "src/components/dashboard/plan-box";
 import { UploadImage } from "src/components/myimages/uploadimage";
-import { RecentFindingsList } from "../components/recent-findings/recent-findings-list";
-import { recent_findings } from "../__mocks__/recent_findings";
 import { ProductCard } from "../components/product/product-card";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControl from "@mui/material/FormControl";
-import FormLabel from "@mui/material/FormLabel";
+
 
 const MyImages = () => (
   <>

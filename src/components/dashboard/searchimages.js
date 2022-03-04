@@ -6,7 +6,7 @@ import { products } from "../../__mocks__/products";
 export const SearchImages = (props) => (
     <Card>
       <CardHeader
-          title="Select one of the following images to see similar images found."
+          title="Click on one of the following uploaded images to see similar images found."
       />
       
       <Divider />

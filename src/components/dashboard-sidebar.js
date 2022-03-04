@@ -27,11 +27,6 @@ const items = [
     title: 'My Images'
   },
   {
-    href: '/findings',
-    icon: (<FindingsIcon fontSize="small" />),
-    title: 'Findings'
-  },
-  {
     href: '/account',
     icon: (<AccountIcon fontSize="small" />),
     title: 'Account'

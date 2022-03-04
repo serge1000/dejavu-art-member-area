@@ -1,21 +1,17 @@
 import Head from 'next/head';
-import { Box, Container, Grid, Typography } from '@mui/material';
-import { Budget } from '../components/dashboard/budget';
-import { LatestOrders } from '../components/dashboard/latest-orders';
-import { LatestProducts } from '../components/dashboard/latest-products';
-import { Sales } from '../components/dashboard/sales';
-import { TasksProgress } from '../components/dashboard/tasks-progress';
-import { TotalCustomers } from '../components/dashboard/total-customers';
-import { TotalProfit } from '../components/dashboard/total-profit';
-import { TrafficByDevice } from '../components/dashboard/traffic-by-device';
+import { Box, Container, Grid, Typography,Pagination } from '@mui/material';
 import { DashboardLayout } from '../components/dashboard-layout';
 import { PlanBox } from 'src/components/dashboard/plan-box';
 import { SearchImages } from 'src/components/dashboard/searchimages';
-
+import Radio from "@mui/material/Radio";
+import RadioGroup from "@mui/material/RadioGroup";
+import FormControl from "@mui/material/FormControl";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import { ProductCard } from "../components/product/product-card";
+import { FoundImageCard } from "../components/dashboard/found-image-card";
 import { RecentFindingsList } from '../components/recent-findings/recent-findings-list';
 import { recent_findings } from '../__mocks__/recent_findings';
-import { customers } from '../__mocks__/customers';
-
+import { products } from "../__mocks__/products";
 
 import { FoundSimAll } from 'src/components/dashboard/found-sim-all';
 import { FoundSim7 } from 'src/components/dashboard/found-sim-7';
@@ -84,25 +80,37 @@ const Dashboard = () => (
             <FoundSim2 />
           </Grid>
 
-
-
-          <Grid container spacing={3} sx={{ mt: 1 }}>
-            <Grid item xl={12} lg={12} sm={12} xs={12}>
-              <SearchImages />
-            </Grid>
+          <Grid item xl={12} lg={12} sm={12} xs={12}>
+            <SearchImages />
           </Grid>
 
-          <Grid
-            item
-            lg={12}
-            sm={12}
-            xl={12}
-            xs={12}
-          >
+          <Grid item xl={12} lg={12} sm={12} xs={12}>
+            <Typography sx={{ mt: 3 }} variant="h6">
+              The following simularities found:
+            </Typography>
+        </Grid>
 
-            <RecentFindingsList recent_findings={recent_findings} />
-
+        <Grid item xl={12} lg={12} sm={12} xs={12}>
+        <Box sx={{ pt: 3 }}>
+          <Grid container spacing={3}>
+            {products.map((product) => (
+              <Grid item key={product.id} xl={2} lg={3} md={3} xs={12}>
+                <FoundImageCard product={product} />
+              </Grid>
+            ))}
           </Grid>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            pt: 3,
+          }}
+        >
+          <Pagination color="primary" count={3} size="small" />
+        </Box>
+        </Grid>
+
         </Grid>
       </Container>
     </Box>

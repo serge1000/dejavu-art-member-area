@@ -7,7 +7,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/1.jpg',
     title: '',
-    totalDownloads: '2'
+    totalDownloads: '2',
+    probability: '96'
   },
   {
     id: uuid(),
@@ -15,7 +16,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/8.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '93'
   },
   {
     id: uuid(),
@@ -23,7 +25,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/2.jpg',
     title: '',
-    totalDownloads: '11'
+    totalDownloads: '11',
+    probability: '95'
   },
   {
     id: uuid(),
@@ -31,7 +34,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/3.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '67'
   },
   {
     id: uuid(),
@@ -39,7 +43,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/4.jpg',
     title: '',
-    totalDownloads: '13'
+    totalDownloads: '13',
+    probability: '88'
   },
   {
     id: uuid(),
@@ -47,7 +52,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/5.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '75'
   },
   {
     id: uuid(),
@@ -55,7 +61,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/8.jpg',
     title: '',
-    totalDownloads: '7'
+    totalDownloads: '7',
+    probability: '89'
   },
   {
     id: uuid(),
@@ -63,7 +70,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/1.jpg',
     title: '',
-    totalDownloads: '9'
+    totalDownloads: '9',
+    probability: '94'
   },
   {
     id: uuid(),
@@ -71,7 +79,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/8.jpg',
     title: '',
-    totalDownloads: '3'
+    totalDownloads: '3',
+    probability: '85'
   },
   {
     id: uuid(),
@@ -79,7 +88,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/2.jpg',
     title: '',
-    totalDownloads: '1'
+    totalDownloads: '1',
+    probability: '69'
   },
   {
     id: uuid(),
@@ -87,7 +97,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/3.jpg',
     title: '',
-    totalDownloads: '1'
+    totalDownloads: '1',
+    probability: '97'
   },
   {
     id: uuid(),
@@ -95,7 +106,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/4.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '92'
   },
   {
     id: uuid(),
@@ -103,7 +115,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/5.jpg',
     title: '',
-    totalDownloads: '6'
+    totalDownloads: '6',
+    probability: '98'
   },
   {
     id: uuid(),
@@ -111,7 +124,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/8.jpg',
     title: '',
-    totalDownloads: '4'
+    totalDownloads: '4',
+    probability: '96'
   },
   {
     id: uuid(),
@@ -119,7 +133,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/upload.JPG',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '99'
   },
   {
     id: uuid(),
@@ -127,7 +142,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/8.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '45'
   },
   {
     id: uuid(),
@@ -135,7 +151,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/6.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '88'
   },
   {
     id: uuid(),
@@ -143,7 +160,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/3.jpg',
     title: '',
-    totalDownloads: '1'
+    totalDownloads: '1',
+    probability: '68'
   },
   {
     id: uuid(),
@@ -151,7 +169,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/7.jpg',
     title: '',
-    totalDownloads: '8'
+    totalDownloads: '8',
+    probability: '55'
   },
   {
     id: uuid(),
@@ -159,7 +178,8 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/6.jpg',
     title: '',
-    totalDownloads: '4'
+    totalDownloads: '4',
+    probability: '89'
   },
   {
     id: uuid(),
@@ -167,6 +187,7 @@ export const products = [
     description: '',
     media: '/static/images/recent_findings/8.jpg',
     title: '',
-    totalDownloads: '0'
+    totalDownloads: '0',
+    probability: '98'
   }
 ];
